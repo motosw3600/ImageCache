@@ -56,15 +56,31 @@
 		E9EFF9EB2796714000E6509B /* ImageCache */ = {
 			isa = PBXGroup;
 			children = (
-				E9EFF9EC2796714000E6509B /* AppDelegate.swift */,
-				E9EFF9EE2796714000E6509B /* SceneDelegate.swift */,
+				E9EFFA012796720F00E6509B /* AppDelegate */,
+				E9EFFA00279671FB00E6509B /* Resources */,
 				E9EFF9F02796714000E6509B /* ViewController.swift */,
+			);
+			path = ImageCache;
+			sourceTree = "<group>";
+		};
+		E9EFFA00279671FB00E6509B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				E9EFF9F22796714000E6509B /* Main.storyboard */,
 				E9EFF9F52796714200E6509B /* Assets.xcassets */,
 				E9EFF9F72796714200E6509B /* LaunchScreen.storyboard */,
 				E9EFF9FA2796714200E6509B /* Info.plist */,
 			);
-			path = ImageCache;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E9EFFA012796720F00E6509B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E9EFF9EC2796714000E6509B /* AppDelegate.swift */,
+				E9EFF9EE2796714000E6509B /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +307,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DRL89Y339X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ImageCache/Info.plist;
+				INFOPLIST_FILE = ImageCache/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +335,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DRL89Y339X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ImageCache/Info.plist;
+				INFOPLIST_FILE = ImageCache/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
